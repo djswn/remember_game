@@ -25,29 +25,25 @@ const cardArray = [
     },
     {
         name: "monkey",
-        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)
-",
+        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)",
         id: null,
         done: false,
     },
     {
         name: "monkey",
-        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)
-",
+        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)",
         id: null,
         done: false,
     },
     {
         name: "panda",
-        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)
-",
+        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)",
         id: null,
         done: false,
     },
     {
         name: "panda",
-        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)
-",
+        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)",
         id: null,
         done: false,
     },
@@ -123,7 +119,7 @@ const cardArray = [
         id: null,
         done: false,
     },
-];  //카드 배열 (종류류)
+];  //카드 배열 (종류)
 
 const gameDOM = [];
 let clickFirst = -1;
@@ -185,9 +181,9 @@ const backFlip = () => {
     const parsedIdSecond = cardArray[clickSecond].id.split("-");
     setTimeout(() => {
         gameDOM[parsedIdFirst[0]][parsedIdFirst[1]].querySelector("img").src =
-        "./img/back.png";
+        "![Image](https://github.com/user-attachments/assets/8ba4133c-39a6-45e1-9a59-611b61ef9747)";
         gameDOM[parsedIdSecond[0]][parsedIdSecond[1]].querySelector("img").src =
-        "./img/back.png";
+        "![Image](https://github.com/user-attachments/assets/8ba4133c-39a6-45e1-9a59-611b61ef9747)";
     }, 500);
     
 };
