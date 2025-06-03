@@ -1,121 +1,125 @@
 const cardArray = [
     {
         name: "elephant",
-        img: "./img/elephant.png",
+        img: "![Image](https://github.com/user-attachments/assets/3ad5f59f-adb7-4f5b-91c6-7eff443d92e4)",
         id: null,
         done: false,
     },
     {
         name: "elephant",
-        img: "./img/elephant.png",
+        img: "![Image](https://github.com/user-attachments/assets/3ad5f59f-adb7-4f5b-91c6-7eff443d92e4)",
         id: null,
         done: false,
     },
     {
         name: "koala",
-        img: "./img/koala.png",
+        img: "![Image](https://github.com/user-attachments/assets/bd329757-169b-4888-8d4e-13d27832b2db)",
         id: null,
         done: false,
     },
     {
         name: "koala",
-        img: "./img/koala.png",
+        img: "![Image](https://github.com/user-attachments/assets/bd329757-169b-4888-8d4e-13d27832b2db)",
         id: null,
         done: false,
     },
     {
         name: "monkey",
-        img: "./img/monkey.png",
+        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)
+",
         id: null,
         done: false,
     },
     {
         name: "monkey",
-        img: "./img/monkey.png",
+        img: "![Image](https://github.com/user-attachments/assets/60d8a7ae-84dc-4921-9ccb-ca8eaf54ff47)
+",
         id: null,
         done: false,
     },
     {
         name: "panda",
-        img: "./img/panda.png",
+        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)
+",
         id: null,
         done: false,
     },
     {
         name: "panda",
-        img: "./img/panda.png",
+        img: "![Image](https://github.com/user-attachments/assets/05cd35c8-4027-4852-8d67-0b9d6727f5a7)
+",
         id: null,
         done: false,
     },
     {
         name: "parakeet",
-        img: "./img/parakeet.png",
+        img: "![Image](https://github.com/user-attachments/assets/bf4304db-006d-4dfe-b7c0-50cdcab2fac3)",
         id: null,
         done: false,
     },
     {
         name: "parakeet",
-        img: "./img/parakeet.png",
+        img: "![Image](https://github.com/user-attachments/assets/bf4304db-006d-4dfe-b7c0-50cdcab2fac3)",
         id: null,
         done: false,
     },
     {
         name: "raccoon",
-        img: "./img/raccoon.png",
+        img: "![Image](https://github.com/user-attachments/assets/3ef17299-58c1-4508-9c11-19db2802e520)",
         id: null,
         done: false,
     },
     {
         name: "raccoon",
-        img: "./img/raccoon.png",
+        img: "![Image](https://github.com/user-attachments/assets/3ef17299-58c1-4508-9c11-19db2802e520)",
         id: null,
         done: false,
     },
     {
         name: "sheep",
-        img: "./img/sheep.png",
+        img: "![Image](https://github.com/user-attachments/assets/0c9195f1-debf-437e-a149-8040b0e17e5f)",
         id: null,
         done: false,
     },
     {
         name: "sheep",
-        img: "./img/sheep.png",
+        img: "![Image](https://github.com/user-attachments/assets/0c9195f1-debf-437e-a149-8040b0e17e5f)",
         id: null,
         done: false,
     },
     {
         name: "sloth",
-        img: "./img/sloth.png",
+        img: "![Image](https://github.com/user-attachments/assets/62fbf051-cbed-4571-9950-dddb40ad19b2)",
         id: null,
         done: false,
     },
     {
         name: "sloth",
-        img: "./img/sloth.png",
+        img: "![Image](https://github.com/user-attachments/assets/62fbf051-cbed-4571-9950-dddb40ad19b2)",
         id: null,
         done: false,
     },
     {
         name: "turtle",
-        img: "./img/turtle.png",
+        img: "![Image](https://github.com/user-attachments/assets/34d5fc05-a263-4515-8c57-93dbcabf5c5c)",
         id: null,
         done: false,
     },
     {
         name: "turtle",
-        img: "./img/turtle.png",
+        img: "![Image](https://github.com/user-attachments/assets/34d5fc05-a263-4515-8c57-93dbcabf5c5c)",
         id: null,
         done: false,
     },
     {
         name: "walrus",
-        img: "./img/walrus.png",
+        img: "![Image](https://github.com/user-attachments/assets/443803a7-03f4-4b1a-bc61-bc324510ba89)",
         id: null,
         done: false,
     },
     {
         name: "walrus",
-        img: "./img/walrus.png",
+        img: "![Image](https://github.com/user-attachments/assets/443803a7-03f4-4b1a-bc61-bc324510ba89)",
         id: null,
         done: false,
     },
@@ -160,7 +164,7 @@ const createBoard = () => {
     for (let i = 0; i < gameDOM.length; i++) {
         for (let j = 0; j < gameDOM[i].length; j++) {
             const card = document.createElement("img");
-            card.setAttribute("src", "./img/back.png");
+            card.setAttribute("src", "![Image](https://github.com/user-attachments/assets/8ba4133c-39a6-45e1-9a59-611b61ef9747)");
             card.classList.add("eachImage");
             gameDOM[i][j].appendChild(card);
         }
